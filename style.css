@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.col1, .col2, .col3 {
+    width: 10vw;
+    height: 10vw;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+}
+
+.row1, .row2 {
+    border-bottom: 1px solid black;
+}
+
+.col2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.btnContainer {
+    padding: 4vh 0;
+    display: flex;
+    justify-content: space-between;
+}
+
