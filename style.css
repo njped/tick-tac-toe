@@ -1,12 +1,15 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #000000;
 }
 
 .container {
     position: absolute;
     left: 35%;
-    top: 20%;
+    top: 25%;
+    padding: 2vh;
+    border: 1px solid #FFFFFF;
 }
 
 .col1, .col2, .col3 {
@@ -19,17 +22,21 @@ body {
 }
 
 .row1, .row2 {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 .col2 {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
 }
 
 .btnContainer {
-    padding: 4vh 0;
+    padding: 3vh 0 1vh 0;
     display: flex;
     justify-content: space-between;
+}
+
+#startBtn, #resetBtn {
+    padding: .5vw;
 }
 
